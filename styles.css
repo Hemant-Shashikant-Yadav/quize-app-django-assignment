@@ -1,0 +1,27 @@
+/* Custom styles */
+.nav-link {
+    @apply text-gray-600 hover:text-blue-500 transition-colors;
+}
+
+.nav-link.active {
+    @apply text-blue-500;
+}
+
+.feature-card {
+    @apply bg-white rounded-lg p-6 text-center shadow-lg hover:shadow-xl transition-shadow;
+}
+
+.icon-wrapper {
+    @apply w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4 text-blue-500;
+}
+
+/* Mobile menu */
+@media (max-width: 768px) {
+    .mobile-menu {
+        @apply absolute top-full left-0 right-0 bg-white shadow-lg;
+    }
+
+    .mobile-menu a {
+        @apply block py-3 px-6 border-b border-gray-200;
+    }
+}
