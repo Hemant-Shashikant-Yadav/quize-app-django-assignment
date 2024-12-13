@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TestYou - Your Online Exam Partner</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Top Banner -->
+    <div class="bg-blue-500 text-white py-2 px-4 text-center">
+        <span class="mr-4">Interested ??</span>
+        <button class="bg-black text-white px-4 py-1 rounded">Try Demo !!</button>
+        <span class="ml-4">Pricing will be updated from 7 to 50 from April 1st</span>
+    </div>
+
+    <!-- Login Section -->
+    <div class="bg-gray-100 py-2 text-center text-sm">
+        Hi Visitor You Can 
+        <a href="#" class="text-blue-500">Login</a> Or 
+        <a href="#" class="text-blue-500">Create An Account</a>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="container mx-auto flex items-center justify-between py-4 px-6">
+        <div class="flex items-center">
+            <img src="logo.svg" alt="TestYou Logo" class="h-12">
+        </div>
+        <div class="hidden md:flex space-x-6">
+            <a href="#" class="nav-link active">Home</a>
+            <a href="pages/online-tests.html" class="nav-link">Online Tests</a>
+            <a href="#" class="nav-link">Test Series</a>
+            <a href="#" class="nav-link">Pricing</a>
+            <a href="#" class="nav-link">About Us</a>
+            <a href="#" class="nav-link">Help</a>
+        </div>
+        <button class="md:hidden" id="mobile-menu-button">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+        </button>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="bg-gradient-to-r from-blue-900 to-blue-700 text-white">
+        <div class="container mx-auto px-6 py-20 flex flex-wrap items-center">
+            <div class="w-full md:w-1/2 mb-10 md:mb-0">
+                <img src="phone-mockup.png" alt="Mobile App" class="max-w-sm mx-auto">
+            </div>
+            <div class="w-full md:w-1/2 text-center md:text-left">
+                <h1 class="text-4xl md:text-6xl font-bold mb-4">ATTEMPT TEST</h1>
+                <h2 class="text-3xl md:text-5xl text-blue-400 mb-6">ANYTIME ANYWHERE</h2>
+                <p class="text-xl mb-4">Install Testyou App On Your</p>
+                <p class="text-3xl text-blue-400">Android Phone</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Features Section -->
+    <div class="container mx-auto px-6 py-16">
+        <h2 class="text-3xl text-center mb-12">Welcome to TestYou - Your Online Exam Partner</h2>
+        <p class="text-center text-gray-600 mb-12">Let's Create or Conduct Online Examination for Your Prestigious Institute and/or Organization.</p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8">
+            <div class="feature-card">
+                <div class="icon-wrapper">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
+                    </svg>
+                </div>
+                <h3 class="text-lg font-semibold mb-2">Create Online Tests</h3>
+                <a href="#" class="text-blue-500">View details</a>
+            </div>
+
+            <div class="feature-card">
+                <div class="icon-wrapper">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+                    </svg>
+                </div>
+                <h3 class="text-lg font-semibold mb-2">Statistical Report</h3>
+                <a href="#" class="text-blue-500">View details</a>
+            </div>
+
+            <div class="feature-card">
+                <div class="icon-wrapper">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path>
+                    </svg>
+                </div>
+                <h3 class="text-lg font-semibold mb-2">Organize Private Test</h3>
+                <a href="#" class="text-blue-500">View details</a>
+            </div>
+
+            <div class="feature-card">
+                <div class="icon-wrapper">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path>
+                    </svg>
+                </div>
+                <h3 class="text-lg font-semibold mb-2">Attempt Online Test</h3>
+                <a href="#" class="text-blue-500">View details</a>
+            </div>
+
+            <div class="feature-card">
+                <div class="icon-wrapper">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                    </svg>
+                </div>
+                <h3 class="text-lg font-semibold mb-2">Add Questions Using Excel Sheet</h3>
+                <a href="#" class="text-blue-500">View details</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
